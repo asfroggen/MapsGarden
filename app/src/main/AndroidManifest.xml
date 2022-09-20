@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.esaudev.mapsplayground">
+    package="com.esaudev.mapsgarden">
 
     <application
         android:allowBackup="true"
@@ -19,7 +19,7 @@
             android:value="@string/google_maps_key"/>
 
         <activity
-            android:name=".MainActivity"
+            android:name="com.esaudev.mapsgarden.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

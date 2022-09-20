@@ -1,10 +1,10 @@
-package com.esaudev.mapsplayground
+package com.esaudev.mapsgarden
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
-import com.esaudev.mapsplayground.databinding.ItemLocationBinding
+import com.esaudev.mapsgarden.databinding.ItemLocationBinding
 
 class LocationListAdapter: ListAdapter<Location, BaseListViewHolder<*>>(DiffUtilCallback) {
 

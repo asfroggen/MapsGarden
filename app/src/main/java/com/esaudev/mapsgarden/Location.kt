@@ -1,4 +1,4 @@
-package com.esaudev.mapsplayground
+package com.esaudev.mapsgarden
 
 import com.google.android.gms.maps.model.LatLng
 

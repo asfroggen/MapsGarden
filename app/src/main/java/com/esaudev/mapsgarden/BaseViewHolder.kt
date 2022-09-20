@@ -1,4 +1,4 @@
-package com.esaudev.mapsplayground
+package com.esaudev.mapsgarden
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView

@@ -1,12 +1,14 @@
-package com.esaudev.mapsplayground
+package com.esaudev.mapsgarden
 
+import android.animation.ObjectAnimator
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.animation.DecelerateInterpolator
 import android.widget.AbsListView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.LinearSnapHelper
 import androidx.recyclerview.widget.RecyclerView
-import com.esaudev.mapsplayground.databinding.ActivityMainBinding
+import com.esaudev.mapsgarden.databinding.ActivityMainBinding
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
@@ -28,6 +30,10 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
         setContentView(view)
 
         setupListComponents()
+        val animator = ObjectAnimator.ofInt(binding.progressBarTest, "progress", 0, 70)
+        animator.setDuration(1000)
+        animator.interpolator = DecelerateInterpolator()
+        animator.start()
         createFragment()
     }
 

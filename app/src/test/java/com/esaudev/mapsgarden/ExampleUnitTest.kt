@@ -1,4 +1,4 @@
-package com.esaudev.mapsplayground
+package com.esaudev.mapsgarden
 
 import org.junit.Test
 

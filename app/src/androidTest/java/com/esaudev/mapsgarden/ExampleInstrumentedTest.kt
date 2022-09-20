@@ -1,4 +1,4 @@
-package com.esaudev.mapsplayground
+package com.esaudev.mapsgarden
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
